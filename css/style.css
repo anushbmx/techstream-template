@@ -36,8 +36,8 @@ img{
 	margin: 110px auto 10px 0;
 }
 .add-info{
-	margin-top: 10px;
-
+	padding-top: 10px;
+	border-top: 1px solid;
 }
 .article-container{
 	width: 100%;

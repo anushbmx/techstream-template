@@ -30,14 +30,36 @@ img{
 .article-image{
 	max-width: 580px;
 	width: 100%;
-	margin: 10px auto;
+	margin: 10px 0 10px auto;
 }
 .artile-heading{
+	margin: 110px auto 10px 0;
+}
+.add-info{
+	margin-top: 10px;
 
 }
-.article{
-	width: 90%;
-	max-width: 960px;
+.article-container{
+	width: 100%;
+	max-width: 1030px;
 	margin:0 auto;
-	padding: 20px 0 0 0;
+	padding: 0 10px;
+	position: relative;
+}
+.sidebar{
+	width: 180px;
+	position: absolute;
+	right: 5px;
+	top: 60px;
+	background: #ccc;
+	height: 200px;
+}
+.top-sharing{
+	width: 100%;
+	height: 40px;
+	background: #000;
+	margin: 10px 0;
+}
+.article{
+	padding: 0 10px 10px 0;
 }

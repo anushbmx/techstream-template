@@ -60,5 +60,15 @@ img{
 	padding: 0 10px 10px 0;
 }
 .about-author{
-
+	border: 1px solid rgb(229, 229, 229);
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+	width: 85%;
+	margin: 20px auto 0;
+	padding: 10px;
+}
+.about-author-head{
+	font-size: 15px;
+	text-align: center;
+	margin:10px  auto;
 }

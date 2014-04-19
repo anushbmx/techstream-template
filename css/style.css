@@ -11,6 +11,10 @@ html, body, header, footer, article, nav, section, aside, time, h1, h2, h3, p, a
 img{
 	width: 100%;
 }
+.center{
+	margin:0 auto;
+	float: none !important;
+}
 .content-inner{
 	max-width: 1440px;
 	width: 100%;
@@ -46,20 +50,15 @@ img{
 	padding: 0 10px;
 	position: relative;
 }
-.sidebar{
-	width: 180px;
-	position: absolute;
-	right: 5px;
-	top: 60px;
-	background: #ccc;
-	height: 200px;
-}
 .top-sharing{
 	width: 100%;
 	height: 40px;
 	background: #000;
-	margin: 10px 0;
+	margin: 20px 0;
 }
 .article{
 	padding: 0 10px 10px 0;
+}
+.about-author{
+
 }

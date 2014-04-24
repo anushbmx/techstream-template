@@ -26,13 +26,13 @@ img{
 }
 #main-header{
 	min-height: 50px;
-	background: rgb(105, 99, 41);
+	border-bottom: 1px solid rgb(231, 231, 231);
 	width: 100%;
 }
-
 #content-header{
 	width: 100%;
-	background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.2);
+	background:rgb(245,245,245);
+	border-bottom: 1px solid rgb(231, 231, 231);
 }
 .article-image{
 	max-width: 580px;
@@ -46,7 +46,7 @@ img{
 	padding-top: 10px;
 	border-top: 1px solid;
 }
-.article-container, .header-container, .footer-container{
+.inner-container{
 	width: 100%;
 	max-width: 1080px;
 	margin:0 auto;

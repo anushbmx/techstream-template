@@ -10,6 +10,7 @@ html, body, header, footer, article, nav, section, aside, time, h1, h2, h3, p, a
 }
 img{
 	width: 100%;
+	display: block;
 }
 .center{
 	margin:0 auto;

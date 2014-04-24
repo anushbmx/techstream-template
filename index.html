@@ -44,21 +44,39 @@
 								<p>Praesent diam velit, accumsan id dui et, hendrerit varius lorem. Suspendisse potenti. Nam at enim quam. Maecenas non accumsan mi. Maecenas a nisi lorem. Phasellus faucibus mauris eget luctus pellentesque. Suspendisse imperdiet pulvinar porttitor. Aenean ac venenatis dolor. Etiam fermentum tincidunt quam, ac viverra risus fermentum eget. Quisque arcu tortor, fringilla a mauris eu, cursus adipiscing diam. Praesent nec pretium lectus, a gravida enim. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam sodales posuere turpis et faucibus. Nam ullamcorper, mi et tincidunt sollicitudin, felis tellus congue urna, id luctus dolor purus non quam.</p> 
 						    </article>  <!-- end of class="article" -->
 
-						    <div class="about-author">
-						    	<div class="row">
-						    		<h3 class="about-author-head">About the Author</h3>
-						    		<div class="column-small-2"><img src="1349524320012857523456.jpg"></div>
-						    		<div class="column-small-10"><p>Anush is a freelance web designer and developer with a passion for interaction design. He founded Tech Stream in mid 2011 to spread the art of web design and programing Skills.</p>
-						    		</div>
-						    	</div>
-						    </div>
+						    
 						    <div class="add-on row">
 							    <div class="column-small-8 comments">
-							    	<h4>COmments</h4>
+							    	<div class="about-author">
+								    	<div class="row">
+								    		<h3 class="about-author-head">About the Author</h3>
+								    		<div class="column-small-2"><img src="1349524320012857523456.jpg"></div>
+								    		<div class="column-small-10"><p>Anush is a freelance web designer and developer with a passion for interaction design. He founded Tech Stream in mid 2011 to spread the art of web design and programing Skills.</p>
+								    		</div>
+								    	</div>
+								    </div>
+							    	<h4>Comments</h4>
 							    </div>
 							    <div class="column-small-4">
-							    	<h4>News letter</h4>
 							    	<h4>Search</h4>
+							    	<form class="searchbar" action="http://techstream.org/search.php" method="get">
+						                <input name="q" required="" placeholder="Search" type="text">
+						                <input class="submit" value="search" type="submit">
+						                <p class="sub_text">Powered by <img src="https://www.google.com/uds/css/small-logo.png" class="gsc-branding-img-noclear"></p>
+						                <div class="newline"></div>
+						            </form>
+						            <!-- End of Google Custom Search -->
+							    	<h4>News letter</h4>
+							    	 <p>Subscribe to our email newsletter for useful tips and valuable resources, sent out every new article release.</p>
+						            <form class="newsletter" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=techstream/feeds', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+						                <input placeholder="Your e-mail address" name="email" type="text">
+						                <input value="techstream/feeds" name="uri" type="hidden">
+						                <input name="loc" value="en_US" type="hidden">
+						                <input class="submit" value="Subscribe" type="submit">
+						                <p class="sub_text">Powered by <a href="http://feedburner.google.com/" target="_blank">FeedBurner</a></p>
+						                <div class="newline"></div>
+						            </form> 
+							    	<!-- End of News Letter -->
 							    </div>
 							</div>
 						</div>
@@ -69,8 +87,17 @@
 		</div> <!-- end of class="content" -->
 		<footer id="footer">
 			<div class="content-inner">
-			<p>copyright</p>
-
+				<div class="row">
+					<div class="column-small-10 center">
+						<ul class="footer-links">
+							<li><a href="http://techstream.org/About_us">About</a></li>
+							<li><a href="http://techstream.org/all-articles">All Articles</a></li>
+							<li><a href="http://techstream.org/Contact">Contact Us</a></li>
+							<li><a href="http://techstream.org/licensing">License</a></li>
+							<li><a href="http://techstream.org/sitemap">Site map</a></li>
+						</ul>
+					</div>
+				</div><!-- End of Row -->
 			</div><!-- end of class="content-inner" -->
 		</footer>
 	</div> <!-- end of class="main-container" -->

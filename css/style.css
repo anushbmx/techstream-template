@@ -61,13 +61,8 @@ img{
 	padding: 0 10px 10px 0;
 }
 .about-author{
-	border: 1px solid rgb(229, 229, 229);
-	border-bottom: none;
-	border-top-right-radius: 4px;
-	border-top-left-radius: 4px;
-	width: 85%;
-	margin: 20px auto 0;
-	padding: 10px;
+	border-bottom: 4px double rgb(229, 229, 229);
+	padding-bottom: 20px;
 }
 .about-author-head{
 	font-size: 15px;
@@ -81,8 +76,24 @@ img{
 .comments{
 	border-right: 1px solid rgb(229, 229, 229);
 	min-height: 200px;
+	padding:0 !important;  /*  Removes padding set by row */
 }
 #footer{
-	height: 400px;
+	height: 200px;
 	background: #000;
+}
+.footer-links{
+	list-style: none;
+	line-height: 50px;
+}
+.footer-links li{
+	display: inline;
+	margin-right: 30px;
+}
+.footer-links a{
+	text-decoration: none;
+	color: #fff;
+}
+.footer-links a:hover{
+	text-decoration: underline;
 }

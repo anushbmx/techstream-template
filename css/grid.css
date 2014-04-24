@@ -89,8 +89,8 @@
 .column-large-12{
 	position:relative;
 	min-height: 1px; /*avoid columns from collapsing when they are empty*/
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 /* Extra small Grid 

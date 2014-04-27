@@ -12,6 +12,11 @@ img{
 	width: 100%;
 	display: block;
 }
+ol, ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none outside none;
+}
 .center{
 	margin:0 auto;
 	float: none !important;
@@ -90,14 +95,30 @@ img{
 	position: absolute;
 	top: 0;
 	left: 0;
-
 }
 .bits{
 	max-height: 300px;
 	overflow-y:auto;
 	padding-top: 30px;
 }
+.bit a{
+	display: block;
+	padding:10px 0;    
+	border-bottom: 1px solid rgb(255,255,255);
+	text-decoration: none;
+}
+.bit-title{
+	font-size: 1.4em;
+}
+.section-link{
+	font-size: 0.8em;
+}
 /* end of bits container */
+.ad{
+	width: 150px;
+	height: 160px;
+	background: #cc0;
+}
 .artile-heading{
 	margin: 110px auto 10px 0;
 	text-shadow:4px 3px 0px rgb(229, 229, 229), 9px 8px 0px rgba(0, 0, 0, 0.15);

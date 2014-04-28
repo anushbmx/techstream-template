@@ -195,12 +195,22 @@ button, input, select, textarea {
 	border-top: 1px solid rgb(229, 229, 229);
 	min-height: 200px;
 }
-.comments{
+.add-on-main{
 	border-right: 1px solid rgb(229, 229, 229);
 	min-height: 200px;
 	padding:0 !important;  /*  Removes padding set by row */
 }
-
+.article-add-info{
+	font-size: 0.7em;
+	padding:10px 0;
+}
+.post-list li{
+	padding: 5px;
+	border-bottom: 1px solid rgb(229, 229, 229);
+}
+.post-list-title{
+	font-size: 1.2em;
+}
 /* Side bar items */
 
 .search img{

@@ -28,15 +28,16 @@ ol, ul {
 }
 /*input*/
 input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not([type="button"]):not([type="file"]), textarea {
-	font-family: 'Gotham SSm 4r','Gotham SSm A','Gotham SSm B',"Helvetica Neue",Helvetica,Segoe,"Segoe UI","Segoe WP",Calibri,Arial,clean,sans-serif;
 	outline: 0;
 	margin:0;
 	padding:7px;
-	background: #F1F1F1;
+	
 	font-style: italic;
 	color:#A9A796;
+	background: #F1F1F1;
 	border: 1px solid #DEDEDE;
 	border-radius: 0px;
+	
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
@@ -45,10 +46,13 @@ input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not([type=
 }
 
 input[type="submit"]{
-	background: white;
-	border: 1px solid #DDD;
-	outline: none;
-	margin: 0;
+	background: none repeat scroll 0% 0% #3E433E;
+	color: #FFF;
+	border: 0px none;
+	cursor: pointer;
+	text-transform: uppercase;
+	border-radius: 0px;
+
 }
 
 button, input, select, textarea {
@@ -56,7 +60,6 @@ button, input, select, textarea {
 	height: 35px;
 	overflow: visible;
 	margin: 0;
-	font-size: 100%;
 	font-family: sans-serif;
 }
 /* End of input */

@@ -8,6 +8,8 @@ html, body, header, footer, article, nav, section, aside, time, h1, h2, h3, p, a
 	outline:0;
 	padding:0;
 }
+html{ font-size: 18px; height: 100%; overflow-y: scroll;}
+
 img{
 	width: 100%;
 	display: block;
@@ -62,7 +64,7 @@ button, input, select, textarea {
 	width: 100%;
 	margin: 0 auto;
 }
-#index .inner-container{
+#wide .inner-container{
 	max-width: 1600px;
 	width:100%;
 }
@@ -99,7 +101,7 @@ button, input, select, textarea {
 	margin-left: auto;
 	position: relative;
 }
-#index .article-image{
+#wide .article-image{
 	margin-left: 0;
 }
 .overlay-box{
@@ -112,7 +114,7 @@ button, input, select, textarea {
 }
 .overlay-heading{
 	color: #fff;
-	font-size: 1.2em;
+	font-size: 1.2rem;
 }
 /* bits container */
 .bits-container{
@@ -123,11 +125,13 @@ button, input, select, textarea {
 }
 .bits-heading{
 	width: 100%;
-	padding: 0 5px;
-	background-color: #ccc;
+	padding: 5px;
+	border: 1px solid #EDEDED;
+	border-top: none;
 	position: absolute;
 	top: 0;
 	left: 0;
+	font-size: 1rem;
 }
 .bits{
 	max-height: 300px;
@@ -136,19 +140,63 @@ button, input, select, textarea {
 }
 .bit a{
 	display: block;
-	padding:10px 0;    
+	padding:10px 0; 
+	color: #93A1A1;   
 	border-bottom: 1px solid rgb(229,229,229);
 	text-decoration: none;
 }
-.bit-title{
-	font-size: 1.4em;
+.bit a:hover *{
+	color: rgb(0,0,0) !important;
 }
-.more-bits{
-	
+.bit-title{
+	font-size: 1.2rem;
+	color: #686C68;
+
 }
 .more-bits a{
 	text-align: right;
 	border: none;
+}
+.cat-list {
+	padding-top:20px;
+    margin-right: 10px;
+    display: inline-block;
+}
+.cat-list li{
+	display: inline-block;
+}
+.cat-list a{
+	border-radius: 5px;
+	color: #93A1A1;
+	display: inline-block;
+	font-size: 0.875rem;
+	padding: 10px;
+	border: 1px solid #EDEDED;
+	text-decoration: none;
+	background: #f9f9f9;
+}
+.cat-list a:hover {
+    border-color: #93A1A1;
+    color: #7A7A7A;
+    background: #fff;
+}
+.cat-list .active{
+	background-color: #fff;
+	border-right: 0.3rem solid #ccc;
+	border-radius: 0;
+}
+.cat-desc{
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+}
+.cat-desc h1{
+	font-size: 1.6rem;
+	color: #686C68 ;
+}
+.cat-desc p{
+	font-size: 0.8rem;
+	font-style: italic;
+	color: #AAB6AA ;
 }
 .section-link{
 	font-size: 0.8em;
@@ -160,8 +208,8 @@ button, input, select, textarea {
 	background: #cc0;
 }
 .artile-heading{
-	margin: 110px auto 10px 0;
-	text-shadow:4px 3px 0px rgb(229, 229, 229), 9px 8px 0px rgba(0, 0, 0, 0.15);
+	margin: 20px auto 10px 0;
+	font-size: 1.4rem;
 }
 .add-info{
 	padding-top: 10px;

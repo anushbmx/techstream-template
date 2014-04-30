@@ -59,11 +59,10 @@ button, input, select, textarea {
 }
 /* End of input */
 .content-inner{
-	max-width: 1440px;
 	width: 100%;
 	margin: 0 auto;
 }
-#index .content-inner, #index .inner-container{
+#index .inner-container{
 	max-width: 1600px;
 	width:100%;
 }
@@ -90,7 +89,7 @@ button, input, select, textarea {
 #content-header{
 	width: 100%;
 	overflow: hidden;
-	background:rgb(240,240,240);
+	background:#F9F9F9;
 	border-bottom: 1px solid rgb(229, 229, 229);
 }
 .article-image{
@@ -138,7 +137,7 @@ button, input, select, textarea {
 .bit a{
 	display: block;
 	padding:10px 0;    
-	border-bottom: 1px solid rgb(255,255,255);
+	border-bottom: 1px solid rgb(229,229,229);
 	text-decoration: none;
 }
 .bit-title{
@@ -190,16 +189,19 @@ button, input, select, textarea {
 	padding: 0 10px 10px 0;
 }
 .add-on-main{
-	border-right: 1px solid rgb(229, 229, 229);
+	border-right: 1px solid #C1EA95;
 	min-height: 200px;
 	padding:0 !important;  /*  Removes padding set by row */
+}
+.add-on-main img{
+	max-width: 150px;
 }
 .article-add-info{
 	font-size: 0.7em;
 	padding:10px 0;
 }
 .post-list li{
-	padding: 5px;
+	padding: 15px 0;
 	border-bottom: 1px solid rgb(229, 229, 229);
 }
 .more-post{
@@ -211,6 +213,9 @@ button, input, select, textarea {
 }
 .post-list-title{
 	font-size: 1.2em;
+}
+.post-image-small{
+	max-width: 150px;
 }
 /* Side bar items */
 

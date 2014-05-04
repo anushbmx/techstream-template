@@ -282,13 +282,17 @@ button, input, select, textarea {
 	width: 100%;
 	padding: 10px 0;
 }
-
+#search-container{
+	background: #E6E7E8;
+	border-bottom: 1px solid #E5E5E5;
+}
 .search-box{
 	width: 89%;
 	border: medium none;
 	outline-width: 0px;
 	padding-left: 15px;
 	padding-right: 3.4em;
+	background-color: #fff !important;
 }
 .search-button{
 	width: 10%;

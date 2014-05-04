@@ -317,7 +317,6 @@ button, input, select, textarea {
 .add-on-main{
 	border-right: 1px solid #E5E5E5;
 	min-height: 200px;
-	padding:0 !important;  /*  Removes padding set by row */
 }
 .add-on-main img{
 	max-width: 150px;

@@ -350,17 +350,16 @@ button, input, select, textarea {
 }
 
 #footer{
-	height: 200px;
 	background: #E6E7E8;
 	font-family: 'Open Sans';
 	font-weight:100;
 	color: #000;
 	border-top: 1px solid #ccc;
+	font-size: 0.83rem;
 }
 .footer-links{
 	list-style: none;
 	line-height: 50px;
-	font-size: 0.83rem;
 }
 .footer-links li{
 	display: inline;
@@ -374,7 +373,7 @@ button, input, select, textarea {
 .footer-links a:hover{
 	text-decoration: underline;
 }
-.footer-social{
+.footer-right{
 	text-align: right;
 }
 .footer-social li:after{
@@ -384,4 +383,15 @@ button, input, select, textarea {
 .footer-social li:last-child:after, .footer-social li:first-child:after{
 	content: " " ;
 	padding: 0;
+}
+.footer-bottom{
+	margin-top: 30px;
+	border-top: 1px solid #fff;
+	font-size: 0.65rem;
+}
+.footer-bottom a{
+	font-weight: normal !important;
+}
+.footer-bottom li{
+	margin-right: 10px !important;
 }

@@ -38,14 +38,14 @@
 @font-face {
   font-family: 'Open Sans';
   src: local('Open Sans Light'),local('OpenSans-Light'), url('fonts/OpenSans-Light.ttf') format('truetype');
-  font-style: light;
+  font-style: Light;
   font-weight: 100;
 }
 
 @font-face {
   font-family: 'Open Sans';
   src: local('Open Sans LightItalic'),local('OpenSans-LightItalic'), url('fonts/OpenSans-LightItalic.ttf') format('truetype');
-  font-style: Light italic;
+  font-style: italic;
   font-weight: 100;
 }
 
@@ -53,12 +53,5 @@
   font-family: 'Open Sans';
   src: local('Open Sans Semibold'),local('OpenSans-Semibold'), url('fonts/OpenSans-Semibold.ttf') format('truetype');
   font-style: Semibold;
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  src: local('Open Sans SemiboldItalic'),local('OpenSans-SemiboldItalic'), url('fonts/OpenSans-SemiboldItalic.ttf') format('truetype');
-  font-style: Semibold italic;
   font-weight: 500;
 }

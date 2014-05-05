@@ -14,8 +14,8 @@ html{
 }
 body {
     color: #000;
-    font: Georgia,"Times New Roman",Times,serif;
-    font-size: 16px;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 20px;
 }
 img{
 	width: 100%;
@@ -24,7 +24,7 @@ img{
 ol, ul {
     margin: 0px;
     padding: 0px;
-    list-style: none outside none;
+    list-style: none;
 }
 p{
     line-height: 1.5em;
@@ -32,8 +32,16 @@ p{
     font-size: 0.9em;
 }
 article p{
-    line-height: 1.8em;
-    font-size: 1.45rem;
+    line-height: 1.75em;
+    font-size: 1.7rem;
+}
+article a{
+	border-bottom: 1px solid rgb(229,229,229);
+	text-decoration: none;
+}
+article a:hover{
+	border-bottom-color: #043df8;
+	text-decoration: none;
 }
 blockquote{
 	font-style: italic;
@@ -49,14 +57,19 @@ a:hover{
 	text-decoration: underline;
 }
 a:visited{
-	color: #2455C3;
+	color: #3B5998;
+}
+pre{
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	border-bottom: 1px solid rgb(229, 229, 229);
+	border-top: 1px solid rgb(229, 229, 229);
 }
 pre code{
 	font-size: 0.9em;
 	margin: 1em 0px;
-	padding: 0px 0 0px 1.5em;
+	padding-left: 1.5em;
 	background: #fff !important;
-	overflow-X: auto;
     line-height: 1.6em;
     position: relative;
 }
@@ -66,8 +79,17 @@ pre code:before{
 	font-family: FontAwesome, "Open sans";
 	position:absolute;
 	font-size: 0.6em;
-	right: 2em;
+	top: -1.5em;
+	right: 0em;
 	border-bottom: 1px solid rgba(229,229,229,0.5);
+}
+pre code:hover:before{
+	color: #000;
+}
+code{
+	padding: 0px 3px;
+	background: none repeat scroll 0% 0% #EEE;
+	font-size: 1.2rem;
 }
 .center{
 	margin:0 auto;
@@ -75,6 +97,9 @@ pre code:before{
 }
 .padd0{
 	padding: 0 !important;
+}
+h1,h2,h3,h4,h5,h6{
+	text-transform: capitalize;
 }
 /*input*/
 input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not([type="button"]):not([type="file"]), textarea {
@@ -251,7 +276,7 @@ button, input, select, textarea {
 	color: #686C68 ;
 }
 .cat-desc p{
-	font-size: 0.8rem;
+	font-size: 1rem;
 	font-style: italic;
 	color: #AAB6AA ;
 }

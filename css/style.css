@@ -35,6 +35,12 @@ article p{
     line-height: 1.8em;
     font-size: 1.45rem;
 }
+blockquote{
+	font-style: italic;
+	border-left: 0.75rem solid rgb(229, 229, 229);
+	margin-left: 0;
+	padding-left: 2em;
+}
 a{
 	color: #043df8;
 	text-decoration: none;
@@ -44,6 +50,24 @@ a:hover{
 }
 a:visited{
 	color: #2455C3;
+}
+pre code{
+	font-size: 0.9em;
+	margin: 1em 0px;
+	padding: 0px 0 0px 1.5em;
+	background: #fff !important;
+	overflow-X: auto;
+    line-height: 1.6em;
+    position: relative;
+}
+pre code:before{
+	content: "\f071 IT'S CODE HERE";
+	color: #ccc;
+	font-family: FontAwesome, "Open sans";
+	position:absolute;
+	font-size: 0.6em;
+	right: 2em;
+	border-bottom: 1px solid rgba(229,229,229,0.5);
 }
 .center{
 	margin:0 auto;

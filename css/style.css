@@ -247,6 +247,9 @@ button, input, select, textarea {
 	text-align: right;
 	border: none;
 }
+.more-bits a:hover{
+	color: #043DF8;	
+}
 .cat-list {
 	padding-top:20px;
     margin-right: 10px;
@@ -402,6 +405,11 @@ button, input, select, textarea {
 .more-post a{
 	text-decoration: none;
 	margin-right: 2rem;
+	padding:0.4rem;
+}
+.more-post	a:hover{
+	background: #043DF8;
+	color: #fff;
 }
 .post-list-title{
 	font-size: 1.2em;

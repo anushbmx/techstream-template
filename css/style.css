@@ -15,7 +15,6 @@ html{
 body {
     color: #000;
     font:300 18px Lato,'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
-
 }
 img{
 	max-width: 100%;
@@ -46,7 +45,9 @@ article a:hover{
 }
 article img{
 	margin:5px auto;
+	position: relative;
 }
+
 article img+small{
 	width: 80%;
 	margin: 5px auto;
@@ -84,9 +85,9 @@ pre code{
     position: relative;
 }
 pre code:before{
-	content: "\f071 IT'S CODE HERE";
+	content: "\f071  IT'S CODE HERE";
 	color: #ccc;
-	font-family: FontAwesome, "Open sans";
+	font-family: FontAwesome, Lato, "Open sans";
 	position:absolute;
 	font-size: 0.6em;
 	top: -1.5em;
@@ -393,7 +394,6 @@ button, input, select, textarea {
 .post-list li{
 	padding: 15px 0;
 	border-bottom: 1px solid rgb(229, 229, 229);
-	border-left: 4px solid #E5E5E5;
 }
 .more-post{
 	border: none !important;
@@ -407,11 +407,6 @@ button, input, select, textarea {
 }
 .post-image-small{
 	max-width: 150px;
-}
-.post-header{
-	background-color: #E5E5E5;
-	height: 1.2em;
-	margin-bottom: 1.1rem;
 }
 /* Side bar items */
 

@@ -14,8 +14,8 @@ html{
 }
 body {
     color: #000;
-    font-family: Georgia,"Times New Roman",Times,serif;
-    font-size: 20px;
+    font:300 18px Lato,'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+
 }
 img{
 	width: 100%;
@@ -34,6 +34,7 @@ p{
 article p{
     line-height: 1.75em;
     font-size: 1.7rem;
+    font-family: Georgia,"Times New Roman",Times,serif;
 }
 article a{
 	border-bottom: 1px solid rgb(229,229,229);
@@ -100,6 +101,7 @@ code{
 }
 h1,h2,h3,h4,h5,h6{
 	text-transform: capitalize;
+	font-family: Lato,Georgia,"Times New Roman",Times,serif;
 }
 /*input*/
 input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not([type="button"]):not([type="file"]), textarea {
@@ -383,6 +385,7 @@ button, input, select, textarea {
 .post-list li{
 	padding: 15px 0;
 	border-bottom: 1px solid rgb(229, 229, 229);
+	border-left: 4px solid #E5E5E5;
 }
 .more-post{
 	border: none !important;
@@ -397,6 +400,11 @@ button, input, select, textarea {
 .post-image-small{
 	max-width: 150px;
 }
+.post-header{
+	background-color: #E5E5E5;
+	height: 1.2em;
+	margin-bottom: 1.1rem;
+}
 /* Side bar items */
 
 .search img{
@@ -406,7 +414,6 @@ button, input, select, textarea {
 
 #footer{
 	background: #E6E7E8;
-	font-family: 'Open Sans';
 	font-weight:100;
 	color: #000;
 	border-top: 1px solid #ccc;
@@ -442,7 +449,7 @@ button, input, select, textarea {
 .footer-bottom{
 	margin-top: 30px;
 	border-top: 1px solid #fff;
-	font-size: 0.65rem;
+	font-size: 0.70rem;
 }
 .footer-bottom a{
 	font-weight: normal !important;

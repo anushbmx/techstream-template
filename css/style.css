@@ -44,6 +44,15 @@ article a:hover{
 	border-bottom-color: #043df8;
 	text-decoration: none;
 }
+article img{
+	margin:5px auto;
+}
+article img+small{
+	width: 80%;
+	margin: 5px auto;
+	font-style: italic;
+	display: block;
+}
 blockquote{
 	font-style: italic;
 	border-left: 0.75rem solid rgb(229, 229, 229);

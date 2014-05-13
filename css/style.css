@@ -312,15 +312,13 @@ button, input, select, textarea {
 	padding-top: 10px;
 	border-top: 5px solid #D5D5D5;
 	color: #686C68 !important;
-	font-size: 0.75rem;
-	font-family: 'Open Sans';
+	font-size: 0.85rem;
 }
 .article-sharing{
 	width: 100%;
 	margin-bottom: 3em;;
-	font-family: 'Open Sans';
 	font-weight: 100;
-	font-size: 0.75rem;
+	font-size: 0.85rem;
 	opacity: 0.8;
 }
 .article-sharing:hover{
@@ -451,6 +449,9 @@ button, input, select, textarea {
 .footer-social li:after{
 	content: "*";
 	padding-left: 5px;
+	position: absolute;
+	top: 0.4rem;
+	font-size: 1.2rem;
 }
 .footer-social li:last-child:after, .footer-social li:first-child:after{
 	content: " " ;

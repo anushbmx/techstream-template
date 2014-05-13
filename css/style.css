@@ -401,6 +401,7 @@ button, input, select, textarea {
 }
 .more-post a{
 	text-decoration: none;
+	margin-right: 2rem;
 }
 .post-list-title{
 	font-size: 1.2em;

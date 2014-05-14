@@ -47,12 +47,12 @@ article img{
 	margin:5px auto;
 	position: relative;
 }
-
 article img+small{
 	width: 80%;
 	margin: 5px auto;
 	font-style: italic;
 	display: block;
+	font-family: Georgia,"Times New Roman",Times,serif;
 }
 blockquote{
 	font-style: italic;
@@ -288,6 +288,7 @@ button, input, select, textarea {
 .cat-desc{
 	padding-top: 2rem;
 	padding-bottom: 1rem;
+	text-shadow:0px 1px 0px #FFF;
 }
 .cat-desc h1{
 	font-size: 1.6rem;
@@ -304,7 +305,7 @@ button, input, select, textarea {
 /* end of bits container */
 .advert{
 	text-transform: uppercase;
-	font-size: 8px;
+	font-size: 10px;
 }
 .ad-hor a{
 	display: inline-block;
@@ -325,9 +326,9 @@ button, input, select, textarea {
       border: none;
       padding: 15px 15px 0 15px;      
 }
-.bsa_it_d {font-size: 0.755em;}
-.bsa_it_p { display: none; }
-.bsa_it_t { padding-top: 6px; display: block; }
+.bsa_it_d {font-size: 0.755rem; line-height: 1px !important;}
+.bsa_it_p { display: none;  }
+.bsa_it_t { padding-top: 5px; display: block; }
 .bsa_powered_div{text-align:right;}
 .bsa_powered_div a{
       color:rgb(169, 167, 150);
@@ -350,7 +351,16 @@ button, input, select, textarea {
 	padding-top: 10px;
 	border-top: 5px solid #D5D5D5;
 	color: #686C68 !important;
-	font-size: 0.85rem;
+	font-size: 0.75rem;
+	text-transform: uppercase;
+}
+.add-info li{
+	display: inline-block;
+	margin-right: 0.7rem;
+}
+.add-info li:after{
+	content: " | ";
+	padding-left:0.7rem;
 }
 .article-sharing{
 	width: 100%;
@@ -413,9 +423,6 @@ button, input, select, textarea {
 }
 .search-button{
 	width: 10%;
-}
-.article{
-	padding: 0 10px 10px 0;
 }
 .add-on-main{
 	border-right: 1px solid #E5E5E5;

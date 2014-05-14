@@ -405,6 +405,10 @@ button, input, select, textarea {
 	margin-top: 5px;
 	margin-left: 5px;
 }
+/*Side bar*/
+.sidebar{
+	padding-top: 20px;
+}
 .top-search{
 	width: 100%;
 	padding: 10px 0;

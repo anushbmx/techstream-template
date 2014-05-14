@@ -435,6 +435,13 @@ button, input, select, textarea {
 .post-list li:last-child{
 	border: none;
 }
+.post-title-a{
+	color: #000 !important;
+}
+.post-title-a:hover{
+	color: #043DF8 !important;
+	text-decoration: none;
+}
 .more-post{
 	border: none !important;
 	text-align: right;

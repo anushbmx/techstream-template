@@ -52,6 +52,7 @@ article img+small{
 	margin: 5px auto;
 	font-style: italic;
 	display: block;
+	color: #c1c1c1;
 	font-family: Georgia,"Times New Roman",Times,serif;
 }
 blockquote{
@@ -408,6 +409,11 @@ button, input, select, textarea {
 /*Side bar*/
 .sidebar{
 	padding-top: 20px;
+}
+.powered_by{
+	font-size: 0.8rem;
+	text-align: right;
+	opacity: 0.8;
 }
 .top-search{
 	width: 100%;

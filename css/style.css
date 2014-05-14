@@ -299,11 +299,42 @@ button, input, select, textarea {
 	font-size: 0.8em;
 }
 /* end of bits container */
-.ad{
+.advert{
+	text-transform: uppercase;
+	font-size: 8px;
+}
+.ad-hor a{
+	display: inline-block;
+}
+.ad-hor .text{
+	width: 50%;
+	padding-left: 5px;
+}
+.ad-ver{
 	width: 150px;
 	height: 160px;
-	background: #cc0;
+	position: relative;
+	background: rgba(255,255,255,0.5);
+	font-size: 16px;
 }
+.bsa_it_ad{
+      background: transparent;
+      border: none;
+      padding: 15px 15px 0 15px;      
+}
+.bsa_it_d {font-size: 0.755em;}
+.bsa_it_p { display: none; }
+.bsa_it_t { padding-top: 6px; display: block; }
+.bsa_powered_div{text-align:right;}
+.bsa_powered_div a{
+      color:rgb(169, 167, 150);
+      font-family:Verdana,sans-serif;
+      font-size:0.6em;
+}
+.bsa_powered_div a:hover{
+      color:rgb(154, 148, 79);
+}
+
 #content-article{
 	border-bottom: 1px solid rgb(229, 229, 229);
 }

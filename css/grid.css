@@ -31,6 +31,15 @@
 	padding: 4px 0;
 	background: rgba(0,0,0,0.2);
 }
+/* To make column center */
+.center{
+  margin:0 auto;
+  float: none !important;
+}
+/* To Remove the padding set by row */
+.padd0{
+  padding: 0 !important;
+}
 
 [class^="column-"],
 [class*="column-"] {
@@ -348,3 +357,28 @@
 /*
  * End of Large grid 
  */
+
+ /* Class to Hide and Center the elements on set res*/
+
+@media (max-width: 992px){
+  .hide-med{
+    display: none;
+  }
+  .center-med{
+    margin:0 auto !important;
+  }
+  .padd0-med{
+    padding: 0 !important;
+  }
+}
+@media (max-width: 768px){
+  .hide-small{
+    display: none;
+  }
+  .center-small{
+    margin:0 auto !important;
+  }
+  .padd0-small{
+    padding: 0 !important;
+  }
+}

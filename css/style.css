@@ -310,6 +310,7 @@ a.tw-twitter:hover{
 }
 .cat-list li{
 	display: inline-block;
+	margin-top: 5px;
 }
 .cat-list a{
 	border-radius: 5px;
@@ -541,6 +542,7 @@ a.tw-twitter:hover{
 	display: inline-block;
 	margin-left: 0.4rem;
 	font-size: 0.9rem;
+	margin-top: 5px;
 }
 .pagination a{
 	display: block;
@@ -633,6 +635,12 @@ a.tw-twitter:hover{
 		min-height: 60px;
 	}
 }
+@media(max-width: 540px){
+	.pagination li:first-child{
+		display: block;
+	}
+}
+/*Standard breaks of Grid*/
 @media(max-width: 840px){
 	.bit a{
 		padding: 3% 0;
@@ -640,6 +648,9 @@ a.tw-twitter:hover{
 	.feed-header a{
 		font-size: 3.2em;
 		min-height: 60px;
+	}
+	.pagination {
+		text-align: left;
 	}
 }
 @media(max-width:768px){
@@ -663,13 +674,11 @@ a.tw-twitter:hover{
 	.add-on-main{
 		border-bottom: 1px solid #E5E5E5;
 	}
-	footer, .footer-right{
-		text-align: center;
-	}
-}
-@media(max-width:768px){
 	.sidebar div {
 		display: block;
 		margin: 0 auto;
+	}
+	footer, .footer-right{
+		text-align: center;
 	}
 }

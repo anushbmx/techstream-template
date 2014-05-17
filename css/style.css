@@ -209,6 +209,9 @@ button, input, select, textarea {
 #wide .article-image{
 	margin-left: 0;
 }
+.article-info-container{
+	max-width: 580px;
+}
 .overlay-box{
 	position: absolute;
 	width: 100%;
@@ -411,20 +414,17 @@ a.tw-twitter:hover{
 	line-height: 1.2em;
 }
 .add-info{
-	padding-top: 10px;
-	border-top: 5px solid #D5D5D5;
+	margin-top: 1rem;
 	color: #686C68 !important;
-	font-size: 0.75rem;
+	font-size: 0.80rem;
+	font-weight: bold;
 	text-transform: uppercase;
 }
-.add-info li{
-	display: inline-block;
-	margin-right: 0.7rem;
+.add-info a{
+	text-decoration: underline;
+	color: #686C68;
 }
-.add-info li:after{
-	content: " | ";
-	padding-left:0.7rem;
-}
+
 .article-sharing{
 	width: 100%;
 	margin-bottom: 3em;;

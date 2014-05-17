@@ -359,10 +359,15 @@
  */
 
  /* Class to Hide and Center the elements on set res*/
-
+.hide-large{
+  display: none;
+}
 @media (max-width: 992px){
   .hide-med{
     display: none;
+  }
+  .view-med{
+    display: block;
   }
   .center-med{
     margin:0 auto !important;
@@ -374,6 +379,9 @@
 @media (max-width: 768px){
   .hide-small{
     display: none;
+  }
+  .view-small{
+    display: block;
   }
   .center-small{
     margin:0 auto !important;

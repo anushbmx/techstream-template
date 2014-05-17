@@ -113,6 +113,16 @@ h1,h2,h3,h4,h5,h6{
 	padding: 5px;
 	border-bottom: 5px solid #EDEDED;
 	font-size: 1rem;
+	position: relative;
+}
+.section-heading:after{
+	content: "\f175";
+	font-family: 'FontAwesome';
+	color: #CCC;
+	font-size: 0.7rem !important;
+	position: absolute;
+	right: 10px;
+	bottom: 5px;
 }
 
 /*input*/
@@ -460,9 +470,6 @@ a.tw-twitter:hover{
 /*Side bar*/
 .sidebar{
 	padding-top: 20px;
-}
-.sidebar h4{
-	border-bottom: 5px solid #ccc;
 }
 .powered_by{
 	font-size: 0.8rem;

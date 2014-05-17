@@ -107,6 +107,14 @@ h1,h2,h3,h4,h5,h6{
 	text-transform: capitalize;
 	font-family: Lato,Georgia,"Times New Roman",Times,serif;
 }
+/* Custom Heading Styles */
+.section-heading{
+	width: 100%;
+	padding: 5px;
+	border-bottom: 5px solid #EDEDED;
+	font-size: 1rem;
+}
+
 /*input*/
 input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not([type="button"]):not([type="file"]), textarea {
 	outline: 0;
@@ -204,27 +212,16 @@ button, input, select, textarea {
 	font-size: 1.2rem;
 }
 /* bits container */
-.bits-container{
+.bits-container,.feeds-header-container{
 	width: 100%;
 	max-width: 580px;
 	height: 100%;
 	position: relative;
 
 }
-.bits-heading{
-	width: 100%;
-	padding: 5px;
-	border: 1px solid #EDEDED;
-	border-top: none;
-	position: absolute;
-	top: 0;
-	left: 0;
-	font-size: 1rem;
-}
 .bits{
 	max-height: 300px;
 	overflow-y:auto;
-	padding-top: 30px;
 }
 .bit a{
 	display: block;
@@ -232,9 +229,14 @@ button, input, select, textarea {
 	color: #93A1A1;   
 	border-bottom: 1px solid rgb(229,229,229);
 	text-decoration: none;
+	font-size: 1em;
 }
 .bit a:hover *{
 	color: rgb(0,0,0) !important;
+}
+.section-link{
+	padding-top: 5px;
+	padding-bottom: 0;
 }
 .bit-title{
 	font-size: 1.2rem;
@@ -247,6 +249,49 @@ button, input, select, textarea {
 }
 .more-bits a:hover{
 	color: #043DF8;	
+}
+
+.feed-header{
+	padding-top: 10px;
+	height: 100%;
+}
+.feed-header li{
+	height: 100%;
+}
+.feed-header a{
+	display: block;
+	width: 100%;
+	height: auto;
+	min-height: 80px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 5rem;
+	text-decoration: none;
+}
+.hover-eff{
+	display: none;
+}
+a.tw-rss{
+	background-color: #E18728;
+	color: #fff;
+}
+a.tw-rss:hover .fa{
+	display: none;
+}
+a.tw-rss:hover .hover-eff{
+	display: block;
+	text-decoration: none !important;
+	font-weight: bold;
+	color: #E18728;
+	background-color: #fff;
+}
+a.tw-twitter{
+	background-color: #55acee;
+	color: #fff;
+}
+a.tw-twitter:hover{
+	background-color: #292f33;
+	color: #fff;
 }
 .cat-list {
 	padding-top:20px;
@@ -305,7 +350,7 @@ button, input, select, textarea {
 .ad a{
 	display: table-cell;
 	vertical-align: top;
-	max-width: 180px;
+	max-width: 200px;
 }
 .ad-hor{
 	position: relative;
@@ -319,7 +364,6 @@ button, input, select, textarea {
 	background: none repeat scroll 0% 0% #F0F0F0;
 	border-radius: 4px;
 	min-height: 114px;
-	width: 250px
 }
 .ad-ver{
 	width: 150px;
@@ -416,6 +460,9 @@ button, input, select, textarea {
 /*Side bar*/
 .sidebar{
 	padding-top: 20px;
+}
+.sidebar h4{
+	border-bottom: 5px solid #ccc;
 }
 .powered_by{
 	font-size: 0.8rem;
@@ -567,17 +614,41 @@ button, input, select, textarea {
 }
 
 /* Custom Res Targets */
-@media(max-width: 870px){
+@media(max-width: 1200px){
 	.bit a{
-		padding: 5px 0;
+		padding: 6px 0;
 	}
 }
 
+@media(max-width: 1000px){
+	.section-link{
+		display: none;
+	}
+	.bit a{
+		padding: 4% 0;
+	}
+	.feed-header a{
+		font-size: 3.5em;
+		min-height: 60px;
+	}
+}
+@media(max-width: 840px){
+	.bit a{
+		padding: 3% 0;
+	}
+	.feed-header a{
+		font-size: 3.2em;
+		min-height: 60px;
+	}
+}
 @media(max-width:768px){
 	.bit a{
 		padding: 10px;
 		border-right: 1px solid rgb(229,229,229);
 		border-left: 1px solid rgb(229,229,229);
+	}
+	.section-link{
+		display: block;
 	}
 	.add-on-main{
 		border: none;
@@ -593,5 +664,11 @@ button, input, select, textarea {
 	}
 	footer, .footer-right{
 		text-align: center;
+	}
+}
+@media(max-width:768px){
+	.sidebar div {
+		display: block;
+		margin: 0 auto;
 	}
 }

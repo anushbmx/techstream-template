@@ -417,7 +417,12 @@ a.tw-twitter:hover{
 	text-decoration: underline;
 	color: #686C68;
 }
-
+.post-addon li{
+	display: inline-block;
+	margin-right: 2em;
+	margin-top: 1em;
+	font-size: 12px;
+}
 .article-sharing{
 	width: 100%;
 	margin-bottom: 3em;;

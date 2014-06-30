@@ -1,12 +1,12 @@
 @font-face {
   font-family: 'Aleo';
   font-style: bold;
-  src: url(./fonts/Aleo-Bold.otf) format("opentype"); /*if IE */
-  src: local("Aleo"), url("./fonts/Aleo-Bold.otf") format("opentype"); /* non-IE */
+  src: url(fonts/Aleo-Bold.otf) format("opentype"); /*if IE */
+  src: local("Aleo"), url("fonts/Aleo-Bold.otf") format("opentype"); /* non-IE */
 }
 @font-face {
   font-family: 'Aleo';
   font-style: normal;
-  src: url(./fonts/Aleo-Regular.otf) format("opentype"); /*if IE */
-  src: local("Aleo"), url("./fonts/Aleo-Regular.otf") format("opentype"); /* non-IE */
+  src: url(fonts/Aleo-Regular.otf) format("opentype"); /*if IE */
+  src: local("Aleo"), url("fonts/Aleo-Regular.otf") format("opentype"); /* non-IE */
 }

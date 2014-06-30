@@ -113,8 +113,15 @@ code{
 }
 h1,h2,h3,h4,h5,h6{
 	text-transform: capitalize;
-	font-family: Lato,Georgia,"Times New Roman",Times,serif;
+	font-family: Aleo,Lato,Georgia,"Times New Roman",Times,serif;
+	letter-spacing: 1px;
+	font-weight: bold;
 }
+h1.light,h2.light,h3.light,h4.light,h5.light,h6.light { font-weight: normal;}
+h1{	font-size: 40px; }
+h2{ font-size: 36px; }
+h3{ font-size: 32px; }
+h4{ font-size: 28px; }
 /* Custom Heading Styles */
 .section-heading{
 	width: 100%;

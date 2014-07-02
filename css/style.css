@@ -47,11 +47,12 @@ article ol{
 	padding-left: 4rem;
 }
 article a{
-	border-bottom: 1px solid rgb(229,229,229);
+	border-bottom: 3px solid rgb(229,229,229);
 	text-decoration: none;
+	display: inline-block;
 }
 article a:hover{
-	border-bottom-color: #043df8;
+	border-color: #043df8;
 	text-decoration: none;
 }
 article img{

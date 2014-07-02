@@ -574,6 +574,33 @@ a.tw-twitter:hover{
 	background: #000;
 	color: #fff;
 }
+/*Browser Compactablilty */
+
+.compatibility{
+	border-bottom:5px solid #EDEDED;
+}
+
+.compatibility p{
+	font-family: Lato,Georgia,"Times New Roman",Times,serif !important;
+	font-size: 16px;
+	color:#C30;
+}
+.icon-holder{
+	text-align: center;
+}
+.compatibility .icons{
+	width:35px;
+	height:35px;
+	margin:10px 0px;
+	display: inline-block;
+}
+.compatibility .un{background:#000000;opacity:0.3;}
+.compatibility .chrome{background: url('http://ns2.techstream.org/icons/browsers/compatible_chrome.gif') no-repeat ;}
+.compatibility .firefox{background: url('http://ns2.techstream.org/icons/browsers/compatible_firefox.gif') no-repeat ;}
+.compatibility .safari{	background: url('http://ns2.techstream.org/icons/browsers/compatible_safari.gif') no-repeat ;}
+.compatibility .opera{	background: url('http://ns2.techstream.org/icons/browsers/compatible_opera.gif') no-repeat ;}
+.compatibility .IE{	background: url('http://ns2.techstream.org/icons/browsers/compatible_IE.gif') no-repeat ;}
+
 /* Side bar items */
 
 .search img{

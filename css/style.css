@@ -397,7 +397,6 @@ a.tw-twitter:hover{
 .ad-h{
 	max-width: 300px;
 	padding: 10px;
-	margin-top: 20px;
 }
 .ad-ver{
 	width: 150px;
@@ -429,7 +428,7 @@ a.tw-twitter:hover{
 	border-bottom: 1px solid rgb(229, 229, 229);
 }
 .article-heading{
-	margin-top: 30px;
+	margin-top: 20px;
 	color: #686C68 ;
 	margin-bottom: 0;
 	font-size: 2rem;
